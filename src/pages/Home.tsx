@@ -30,8 +30,8 @@ export function Home() {
 
   function handleRemoveTask(id: number) {
     const updatedTasks = tasks.map(task => ({ ...task }));
-    const updatedfilter = updatedTasks.filter(task => task.id !== id);
-    setTasks(updatedfilter);
+    const updatedFilter = updatedTasks.filter(task => task.id !== id);
+    setTasks(updatedFilter);
   }
 
   return (
